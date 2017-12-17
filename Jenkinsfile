@@ -1,4 +1,4 @@
-node {
+node("autoscale") {
     def app
 
     stage('Clone repository') {
